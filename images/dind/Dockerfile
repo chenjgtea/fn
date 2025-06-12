@@ -1,4 +1,4 @@
-FROM docker:17.12-dind
+FROM docker:28.2.2-dind-alpine3.22
 
 RUN apk add --no-cache ca-certificates
 
